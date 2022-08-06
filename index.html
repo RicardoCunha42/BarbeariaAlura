@@ -3,42 +3,60 @@
     <head>
         <meta charset="UTF-8">
 
+        <title>&#129492; Barbearia Alura</title>
+
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
         
-        <title>Barbearia Hombre</title>
     </head>
     
     <body>
-        <header class = "titulo"><h1>Barbearia Hombre</h1></header>
+        <header>
+            <div class="caixa">
+                <h1><img id="logo" src="imgs/logo.png"></h1>
 
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li> 
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
         <img id="banner" src="imgs/banner.jpg">
+        <main>
+            <div class="introduçao">
+                <h2 class = "subtitulo">Sobre a Barbearia Alura</h2>
 
-        <div class="introduçao">
-            <h2 class = "subtitulo">Sobre a Barbearia Hombre</h1>
+                <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
+                Fundada em 1995 por imigrantes argentinos, a Barbearia Alura é um negócio de família que já é tradicional na cidade, 
+                mas nunca deixou de modernizar-se e conquista novos clientes a cada dia.</p>
+                <br>
+                <p id="missao"><em>Nossa missão é: <strong>
+                    "Proporcionar cortes de cabelo e barba ao gosto dos clientes através das técnicas mais atuais, e por um preço competitivo. "</strong>.</em></p>
+                <br>    
+                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
+                O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </div>
+            
+            <div class="beneficios">
+                <h3>Benefícios</h3>
+                
+                <ul>
+                    <li class = "item">Atendimento personalizado</li>
+                    <li class = "item">Espaço diferenciado</li>
+                    <li class = "item">Localização</li>
+                    <li class = "item">Profisionais qualificados</li>
+                    <li class = "item">Uma cerveja gelada de cortesia para cada cliente ;)</li>
+                </ul>
 
-            <p>Localizada no coração da cidade a <strong>Barbearia Hombre</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. 
-            Fundada em 1995 por imigrantes argentinos, a Barbearia Hombre é um negócio de família que já é tradicional na cidade, 
-            mas nunca deixou de modernizar-se e conquista novos clientes a cada dia.</p>
-        
-            <p id="missao"><em>Nossa missão é: <strong>
-                "Proporcionar cortes de cabelo e barba ao gosto dos clientes através das técnicas mais atuais, e por um preço competitivo. "</strong>.</em></p>
-        
-            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. 
-            O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
-        
-        <div class="beneficios">
-            <h3>Benefícios</h3>
-            
-            <ul>
-                <li class = "item">Atendimento personalizado</li>
-                <li class = "item">Espaço diferenciado</li>
-                <li class = "item">Localização</li>
-                <li class = "item">Profisionais qualificados</li>
-                <li class = "item">Uma cerveja gelada de cortesia para cada cliente ;)</li>
-            </ul>
-            
-            <img id="cliente" src="imgs/beneficios.jpg">
-        </div>
+                <img id="cliente" src="imgs/beneficios.jpg">
+            </div>
+        </main>
+        <footer>
+            <img src="imgs/logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+        </footer>
     </body>
 </html>
