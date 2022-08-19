@@ -1,3 +1,7 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: rgb(31, 122, 122);
     padding: 20px 0;
@@ -153,3 +157,41 @@ td, th {
     border: 1px solid #000000;
     padding: 8px 15px;
 }
+
+/* CSS da home page */
+.banner {
+    width: 100%;
+
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear: left;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.introducao p {
+    margin-bottom: 1em;
+}
+
+.introducao strong {
+    font-weight: bold;
+}
+
+.introducao em {
+    font-style: italic;
+}
+
+.imgBeneficios {
+    width: 60%;
+}
+
+
+
