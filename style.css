@@ -173,6 +173,24 @@ td, th {
     margin: 0 auto;
 }
 
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.introducao p {
+    margin-bottom: 1em;
+}
+
+.introducao strong {
+    font-weight: bold;
+}
+
+.introducao em {
+    font-style: italic;
+}
+
 .mapa {
     padding: 3em 0;
     background: linear-gradient(#fefefe, #888888);
