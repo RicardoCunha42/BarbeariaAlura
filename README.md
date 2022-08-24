@@ -1,6 +1,6 @@
 # Site Barbearia Alura
 
-Página de uma barbearia fictícia feita com base nas aulas do curso "HTML5 e CSS3 parte 1: crie uma página da Web" da Alura. 
+Página de uma barbearia fictícia feita com base nos cursos de HTML5 e CSS3 da formação de Front End da Alura. 
 
 A ideia é atualizar a página à medida que meus conhecimentos expandirem!
 
