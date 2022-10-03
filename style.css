@@ -8,9 +8,9 @@ header {
 }
 
 .caixa {
-position: relative;
-width: 940px;
-margin: 0 auto;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 
 }
 
@@ -98,7 +98,7 @@ footer {
 }
 
 form {
-    margin: 40px 0;
+    margin: 40px 0 40px 40px;
 }
 
 form label, form legend {
@@ -115,7 +115,7 @@ form label, form legend {
     border-radius: 10px;
 }
 
-.checkbox {
+.radiobox, .optionbox, .checkbox {
     margin: 20px 0;
 
 }
@@ -139,7 +139,7 @@ form label, form legend {
 }
 
 table {
-    margin: 20px 0 40px;
+    margin: 20px 0 40px 40px;
 }
 
 thead {
@@ -236,9 +236,61 @@ td, th {
 
 .imagem-beneficios {
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+    
 }
 
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+@media screen and (max-width: 480px)  {
+    .caixa, .introducao, .mapa-conteudo, .conteudo-beneficios, .video, .produtos {
+        width: auto;
+    }
+
+    /* Header */
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+        text-align: center;
+    }
+    
+    /* Home page */
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+
+    /* Produtos */
+    .produtos li {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    /* Contato */
+    form {
+        margin-left: 10px;
+    }
+
+    .input-padrao, .enviar {
+       width: 80%;
+    }
+
+    .enviar {
+        display: block;
+        margin: 0 auto;
+    }
+
+    table, .enviar {
+        margin: 20px auto; 
+    }
 }
